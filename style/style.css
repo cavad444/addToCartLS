@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.pizzas-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.pizza {
+  padding: 50px;
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px black;
+}
+.pizza .name-surname {
+  display: flex;
+  gap: 4px;
+}
+.pizza .name, .pizza .surname {
+  font-weight: bolder;
+}
+.pizza .box-label {
+  font-size: 18px;
+}
+
+.add-to-cart {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.add-to-cart .cart {
+  width: 250px;
+  height: 300px;
+  border: 1px solid gray;
+}
+.add-to-cart .cart .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.add-to-cart .cart .item .item-span {
+  font-size: 18px;
+}
+
+.plus-icon {
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}/*# sourceMappingURL=style.css.map */

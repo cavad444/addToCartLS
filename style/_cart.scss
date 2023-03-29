@@ -1,0 +1,29 @@
+.add-to-cart{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+   
+    .cart{
+        width: 250px;
+        height: 300px;
+        border: 1px solid gray;
+        .item{
+            display: flex;
+            justify-content: space-between;
+            padding:10px ;
+            border-bottom: 1px solid black;
+
+            .item-span{
+                font-size: 18px;
+            }
+        }
+    }
+}
+.plus-icon{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
